@@ -22,13 +22,7 @@ public class Address {
 		return "Address [addNo=" + addNo + "]";
 	}
 
-<<<<<<< HEAD
-private int locNum;
 
-private String locId;
-
-=======
->>>>>>> parent of ef551b6 (Update Address.java)
 	
 	
 
