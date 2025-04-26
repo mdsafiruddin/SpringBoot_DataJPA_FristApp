@@ -1,7 +1,7 @@
 package com.app.model;
 
 public class Address {
-	
+	private String loName;
 	private String addNo;
 
 	public String getAddNo() {
