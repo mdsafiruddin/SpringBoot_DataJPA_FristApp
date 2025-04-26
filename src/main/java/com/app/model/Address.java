@@ -21,7 +21,11 @@ public class Address {
 	public String toString() {
 		return "Address [addNo=" + addNo + "]";
 	}
+
 private int locNum;
+
+private String locId;
+
 	
 	
 
