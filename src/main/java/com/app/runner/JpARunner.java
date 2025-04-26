@@ -25,6 +25,9 @@ public class JpARunner implements CommandLineRunner {
 		System.out.println(e.getEmpId());
 		repo.save(new Employee("aasa","delhi"));
 		repo.save(new Employee("alam","kolkata"));
+		repo.save(new Employee("alam","hyderabad"));
+		repo.save(new Employee("ahhsjdksjkam","pune"));
+		
 	}
      
 }

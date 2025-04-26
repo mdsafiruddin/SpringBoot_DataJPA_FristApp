@@ -12,12 +12,14 @@ public class Employee {
 	private Integer empId;
 	private String empName;
 	private String loc;
+	private String doorNo;
 	
 
 	public Employee() {
-		System.out.println("hello employee");
+		System.out.println("defaul constructor");
 	}
 
+	
 
 	public Employee(String empName, String loc) {
 		super();
@@ -64,9 +66,18 @@ public class Employee {
 	}
 
 
+	public Employee(Integer empId, String empName, String loc, String doorNo) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.loc = loc;
+		this.doorNo = doorNo;
+	}
+
+
 	@Override
 	public String toString() {
-		return "Employee [empId=" + empId + ", empName=" + empName + ", loc=" + loc + "]";
+		return "Employee [empId=" + empId + ", empName=" + empName + ", loc=" + loc + ", doorNo=" + doorNo + "]";
 	}
 	
 	
